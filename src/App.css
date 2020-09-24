@@ -1,7 +1,16 @@
-.App {
-  text-align: center;
+#root{
+position: relative;
 }
 
+.App {
+  text-align: center;
+  background: url("./assets/images/food1.jpg")center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+}
+a{text-decoration: none !important}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +44,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+main{
+ margin-top: 65px
+}
+
+.backg{
+  background-color: #000;
+  border-radius: 8px;
+  opacity: 0.9;
 }

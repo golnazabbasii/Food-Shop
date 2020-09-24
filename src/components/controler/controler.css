@@ -1,0 +1,77 @@
+.controler {
+  /* background: rgb(177,136,77);
+  background: linear-gradient(0deg, rgba(177,136,77,1) 0%, rgba(87,73,32,1) 36%, rgba(0,0,0,1) 90%); */
+  /* background: rgb(208,134,75);
+background: linear-gradient(0deg, rgba(208,134,75,1) 0%, rgba(70,51,37,1) 0%, rgba(27,25,25,1) 100%); */
+background: rgb(208,134,75);
+background: linear-gradient(0deg, rgba(208,134,75,1) 0%, rgba(70,51,37,1) 0%, rgba(27,25,25,1) 100%);
+  box-shadow: -1px 1px 10px 1px rgb(30,30,30);
+  border-radius: 6px;
+  margin: 40px 0;
+}
+
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+p {
+  color: #fff;
+  font-size: 16px
+}
+.s-con {
+  display: inline-block;
+  width: 30%;
+  padding: 7px;
+  margin: 0 10px;
+  color: rgb(228, 220, 220);
+}
+
+button {
+  width: 20%;
+  vertical-align: unset !important;
+}
+.btn:focus,
+.btn:active {
+  outline: unset !important;
+  box-shadow: unset !important;
+  color: rgb(228, 220, 220) !important;
+}
+
+.btn-incre,.btn-incre:hover,.btn-incre:active,.btn-incre:focus {
+  background-color: rgb(254 206 158);
+}
+.btn-incre:hover,.btn-incre:active,.btn-incre:focus{
+  color: rgb(99, 94, 94)!important
+}
+/* rgb(40, 146, 93) */
+.btn-decre {
+  background-color: rgb(195 138 99);
+  color: rgb(228, 220, 220);
+  margin: 0 10px !important;
+}
+.s-price {
+  color: rgb(228, 220, 220);
+  padding: 4px;
+  font-weight: bold;
+}
+
+.btn-shop{
+  background-color: rgb(32 73 24);
+  color: rgb(228, 220, 220);
+}
+.btn-shop:hover{
+  color: #fff !important
+}
+
+@media (max-width:680px){
+  .btn{
+  width: 27% ;
+    font-size: 7px !important
+  }
+  div,li,i,p,span{
+    font-size: 11px
+  }
+  h4{font-size: 13px !important}
+}

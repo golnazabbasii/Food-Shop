@@ -1,0 +1,11 @@
+.mar {
+  margin: 40px 20px !important;
+}
+.h {
+  color: #fff ;
+  margin: 30px 0 ;
+  background-color: #000;
+  padding: 15px ;
+  border-radius: 6px;
+  opacity: 0.9
+}

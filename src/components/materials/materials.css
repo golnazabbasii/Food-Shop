@@ -1,0 +1,25 @@
+.hotDog {
+  background: rgb(219, 93, 113);
+  color: #fff;
+}
+.salad {
+  background: rgb(161, 191, 30);
+  color: #fff;
+}
+
+button {
+  margin: 20px 0 !important;
+}
+
+.cheese {
+  background: rgb(252, 202, 46);
+  color: #fff;
+}
+.tomato {
+  background: tomato;
+  color: #fff;
+}
+
+div {
+  padding: 5px;
+}

@@ -1,0 +1,38 @@
+.box {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: rgb(27,25,25);
+background: linear-gradient(0deg, rgba(27,25,25,1) 0%, rgba(91,87,83,1) 0%, rgba(27,25,25,1) 100%);
+  border-radius: 6px;
+  width: 80%;
+  animation: opa 0.8s;
+  z-index: 999;
+  color: #fff
+}
+i{margin: 0 5px}
+@keyframes opa {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.i-wid {
+  display: inline-block;
+}
+.s-num {
+  margin: 0 4px;
+}
+li {
+  margin: 10px 0;
+}
+h4 {
+  margin-bottom: 20px !important;
+}
+.btn-mar {
+  margin: 20px 5px !important;
+}
