@@ -122,14 +122,14 @@ class Login extends Component {
         )}
       </form>
     );
-  const valid=FormData.map(item=>item.config.valid)
-      if(this.props.isAuth || valid){
-        form = <Redirect to="/" />
-      }
+  // const valid=FormData.map(item=>item.config.valid)
+  //     if(this.props.isAuth || valid){
+  //       form = <Redirect to="/" />
+  //     }
     
-    // if (this.props.isAuth) {
-    //   form = <Redirect to="/" />;
-    // }
+    if (this.props.isAuth) {
+      form = <Redirect to="/" />;
+    }
 
     return (
       <div className="container" style={{ minHeight: 600 }}>
