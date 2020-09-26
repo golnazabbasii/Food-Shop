@@ -67,8 +67,13 @@ button {
 
 @media (max-width:680px){
   .btn{
-  width: auto ;
     font-size: 10px !important
+  }
+  .btn-decre,.btn-incre{
+    width: 27%
+  }
+  .btn-shop{
+    width: auto
   }
   div,li,i,p,span{
     font-size: 11px
