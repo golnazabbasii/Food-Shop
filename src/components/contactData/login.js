@@ -122,13 +122,11 @@ class Login extends Component {
         )}
       </form>
     );
-    for(let key in this.state.FormData){
-      if(this.props.isAuth || this.state.FormData[key].valid){
+  
+      if(this.props.isAuth || this.state.FormData.valid){
         form = <Redirect to="/" />
-      } else{
-        alert("لطفا اطلاعات صحیح را وارد نمایید")
       }
-    }
+    
     // if (this.props.isAuth) {
     //   form = <Redirect to="/" />;
     // }
