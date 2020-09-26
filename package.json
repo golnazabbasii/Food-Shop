@@ -9,6 +9,7 @@
     "axios": "^0.19.2",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.4",
+    "express": "^4.17.1",
     "jest": "^24.9.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
@@ -22,7 +23,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
