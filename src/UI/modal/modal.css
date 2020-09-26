@@ -36,3 +36,8 @@ h4 {
 .btn-mar {
   margin: 20px 5px !important;
 }
+@media (max-width:680px){
+  .btn-mar{
+    width: 27%
+  }
+}
