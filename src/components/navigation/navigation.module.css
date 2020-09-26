@@ -118,6 +118,7 @@ background-color: rgb(39 39 39);
       rgb(39 39 39) 50%
     );
     animation: wid 0.2s;
+    z-index: 9;
   }
   @keyframes wid {
     from {
