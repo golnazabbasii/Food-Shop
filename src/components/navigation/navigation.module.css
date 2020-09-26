@@ -1,5 +1,4 @@
 nav li {
-  display: inline-block;
   padding: 8px;
   margin: 10px 20px;
   cursor: pointer;
@@ -47,6 +46,9 @@ background-color: rgb(39 39 39);
   .img {
     display: none;
   }
+  nav li{
+    display: inline-block
+  }
 }
 
 @media (max-width: 630px) {
@@ -66,7 +68,8 @@ background-color: rgb(39 39 39);
     display: none;
   }
   nav li {
-    width: 83%;
+    /* width: 83%; */
+    display: flex
   }
 
   .menuToggle {
