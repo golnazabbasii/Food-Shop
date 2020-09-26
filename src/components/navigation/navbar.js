@@ -43,13 +43,13 @@ class Navigation extends Component {
                   </Menu>
                 </NavLink>
                 <NavLink to="/payment" activeClassName={Classes.myactive}>
-                  <Menu class={this.state.toggleMenu ? null : Classes.li}>
+                  <Menu class={this.state.toggleMenu ? null : Classes.li} clicked={this.state.toggleMenu}>
                     پرداخت نهایی
                   </Menu>
                 </NavLink>
                 {!this.props.token ? (
                   <NavLink to="/login" activeClassName={Classes.myactive}>
-                    <Menu class={this.state.toggleMenu ? null : Classes.li}>
+                    <Menu class={this.state.toggleMenu ? null : Classes.li} clicked={this.state.toggleMenu}>
                       ورود
                     </Menu>
                   </NavLink>
