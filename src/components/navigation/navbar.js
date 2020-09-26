@@ -17,7 +17,7 @@ class Navigation extends Component {
   }
 
   toggle = () => this.setState({ toggleMenu: !this.state.toggleMenu });
-
+  toggle1=() => this.state.toggleMenu;
   render() {
     return (
       <Wrapper>
@@ -38,18 +38,18 @@ class Navigation extends Component {
               ) : null}
               <ul className={Classes.ul}>
                 <NavLink to="/" exact activeClassName={Classes.myactive}>
-                  <Menu class={this.state.toggleMenu ? null : Classes.li} clicked={this.state.toggleMenu}>
+                  <Menu class={this.state.toggleMenu ? null : Classes.li} clicked={this.toggle}>
                     صفحه ی اصلی
                   </Menu>
                 </NavLink>
                 <NavLink to="/payment" activeClassName={Classes.myactive}>
-                  <Menu class={this.state.toggleMenu ? null : Classes.li} clicked={this.state.toggleMenu}>
+                  <Menu class={this.state.toggleMenu ? null : Classes.li} clicked={this.toggle}>
                     پرداخت نهایی
                   </Menu>
                 </NavLink>
                 {!this.props.token ? (
                   <NavLink to="/login" activeClassName={Classes.myactive}>
-                    <Menu class={this.state.toggleMenu ? null : Classes.li} clicked={this.state.toggleMenu}>
+                    <Menu class={this.state.toggleMenu ? null : Classes.li} clicked={this.toggle}>
                       ورود
                     </Menu>
                   </NavLink>
