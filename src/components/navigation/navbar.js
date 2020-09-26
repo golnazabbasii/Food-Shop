@@ -38,7 +38,7 @@ class Navigation extends Component {
               ) : null}
               <ul className={Classes.ul}>
                 <NavLink to="/" exact activeClassName={Classes.myactive}>
-                  <Menu class={this.state.toggleMenu ? null : Classes.li}>
+                  <Menu class={this.state.toggleMenu ? null : Classes.li} clicked={this.state.toggleMenu}>
                     صفحه ی اصلی
                   </Menu>
                 </NavLink>
