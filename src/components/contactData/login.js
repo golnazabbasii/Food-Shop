@@ -122,8 +122,8 @@ class Login extends Component {
         )}
       </form>
     );
-  
-      if(this.props.isAuth || this.state.FormData.valid){
+  const valid=FormData.map(item=>item.config.valid)
+      if(this.props.isAuth || valid){
         form = <Redirect to="/" />
       }
     
