@@ -67,7 +67,7 @@ button {
 
 @media (max-width:680px){
   .btn{
-  width: 27% ;
+  width: auto ;
     font-size: 10px !important
   }
   div,li,i,p,span{
