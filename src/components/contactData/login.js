@@ -122,9 +122,14 @@ class Login extends Component {
         )}
       </form>
     );
-    if (this.props.isAuth) {
-      form = <Redirect to="/" />;
+    for(let key in this.state.FormData){
+      if(this.props.isAuth || this.state.FormData[key].valid){
+        form = <Redirect to="/" />
+      } 
     }
+    // if (this.props.isAuth) {
+    //   form = <Redirect to="/" />;
+    // }
 
     return (
       <div className="container" style={{ minHeight: 600 }}>
