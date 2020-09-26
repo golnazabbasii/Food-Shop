@@ -38,24 +38,24 @@ class Navigation extends Component {
               ) : null}
               <ul className={Classes.ul}>
                 <NavLink to="/" exact activeClassName={Classes.myactive}>
-                  <Menu class={this.state.toggleMenu ? null : Classes.li} clicked={this.state.toggleMenu}>
+                  <Menu class={this.state.toggleMenu ? Classes.li : null} clicked={this.state.toggleMenu}>
                     صفحه ی اصلی
                   </Menu>
                 </NavLink>
                 <NavLink to="/payment" activeClassName={Classes.myactive}>
-                  <Menu class={this.state.toggleMenu ? null : Classes.li} clicked={this.state.toggleMenu}>
+                  <Menu class={this.state.toggleMenu ? Classes.li : null} clicked={this.state.toggleMenu}>
                     پرداخت نهایی
                   </Menu>
                 </NavLink>
                 {!this.props.token ? (
                   <NavLink to="/login" activeClassName={Classes.myactive}>
-                    <Menu class={this.state.toggleMenu ? null : Classes.li} clicked={this.state.toggleMenu}>
+                    <Menu class={this.state.toggleMenu ? Classes.li : null} clicked={this.state.toggleMenu}>
                       ورود
                     </Menu>
                   </NavLink>
                 ) : (
                   <NavLink to="/Logout" activeClassName={Classes.myactive}>
-                    <Menu class={this.state.toggleMenu ? null : Classes.li}>
+                    <Menu class={this.state.toggleMenu ? Classes.li : null}>
                       خروج
                     </Menu>
                   </NavLink>
