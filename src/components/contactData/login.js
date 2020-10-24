@@ -88,9 +88,9 @@ class Login extends Component {
       this.state.controls.email.value,
       this.state.controls.pasword.value
     );
-    if (value === "" && pas === "") {
-      alert("لطفا فیلد مورد نظر را پر کنید");
-    }
+    // if (value === "" && pas === "") {
+    //   alert("لطفا فیلد مورد نظر را پر کنید");
+    // }
   };
   render() {
     let FormData = [];
@@ -132,7 +132,7 @@ class Login extends Component {
     }
 
     return (
-      <div className="container" style={{ minHeight: 600 }}>
+      <div className="container vh">
         <div className="row">
           <div className="col-md-6 col-md-offset-3 backg">
             <h4 style={{ color: "white" }}>لطفا اطلاعات خود را وارد نمایید</h4>
