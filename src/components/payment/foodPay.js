@@ -46,7 +46,7 @@ class FoodPay extends Component {
     //   console.log('emad ' + itm.type);
     // })
     let payment = (
-      <div className="container" style={{ minHeight: 600 }}>
+      <div className="container vh">
         <h4 className="h">آیا از انتخاب خود مطمن هستید؟</h4>
         {this.props.materials.map((itm, ind) => (
           <div key={ind}>
